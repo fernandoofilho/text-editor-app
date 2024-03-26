@@ -1,0 +1,20 @@
+{
+  "name": "meu-app-windows",
+  "version": "1.0.0",
+  "description": "app criado para aprender electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "yarn dev",
+    "start": "electron ."
+  },
+  "author": "fernandoofilho",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.1.5",
+    "electron-reload": "^2.0.0-alpha.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

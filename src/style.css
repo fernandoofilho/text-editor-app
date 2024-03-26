@@ -1,0 +1,130 @@
+.pages {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto; 
+    overflow-y: auto; 
+}
+
+.paper-page {
+background-color: #D9D9D9;
+min-width: 748px;
+min-height: 880px;
+border-radius: 19px;
+box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.25);
+margin-right: 20px; 
+margin-bottom: 5px;
+}
+
+.input-text {
+border: 1px solid black;
+width: 100px;
+display: flex;
+}
+
+.add-page-icon-1 {
+    width: 157.11px;
+    height: 183.19px;
+    background: none; 
+    border: none; 
+    outline: none; 
+    transition: ease-in-out 0.2s;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.add-page-icon-1:hover {
+    width: 166.11px;
+    height: 192.19px;
+}
+
+#initial-button-add-page {
+    transition: opacity 0.2s ease; 
+    opacity: 1; 
+}
+
+#initial-button-add-page.remove {
+    opacity: 0; 
+}
+.icon-area {
+    display: flex;
+    max-width: 60px;
+    height: 880px;
+    width: 30px;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column; 
+    border: 1px solid red;
+    position: relative; 
+    left: 738px;
+}
+.icon-area:hover{
+    width: 60px;
+}
+.addPage-menu-button {
+    background: none; 
+    border: none; 
+    padding: 0; 
+    cursor: pointer; 
+}
+
+.addPage-menu {
+    width: 0px;
+    background: none; 
+    border: none; 
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+    transform: translate(-60px, 0px) rotate(30deg); /* Combina a translação e a rotação */
+    margin-bottom: 10px;
+}
+
+.icon-area:hover .addPage-menu:hover {
+    width: 60px; 
+
+}
+
+.expandPage-menu {
+    width: 0px;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+    transform: translate(-30px, 0px); 
+    margin-bottom: 5px;
+}
+
+.icon-area:hover .expandPage-menu:hover {
+    width: 60px; 
+}
+
+.deletePage-menu {
+    width: 0px;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+    transform: translate(-30px, 0px) rotate(136deg); 
+}
+
+.icon-area:hover .deletePage-menu:hover {
+    width: 60px; 
+}
+
+
+/* Quando o mouse passar sobre .icon-area */
+.icon-area:hover .addPage-menu {
+    margin-left: 85px; 
+    width: 30px;
+
+}
+
+.icon-area:hover .expandPage-menu {
+    margin-left: 85px; 
+    width: 30px;
+
+}
+
+.icon-area:hover .deletePage-menu {
+    margin-left: 85px; 
+    width: 30px;
+
+}
+
