@@ -22,9 +22,11 @@ git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://githu
 
 2. **Instalando Dependências:**
 cd text-editor-app
-npm install
 
-3. **Executando a Aplicação:**
+npm install ou yarn
+
+
+4. **Executando a Aplicação:**
 npm run start
 
 
